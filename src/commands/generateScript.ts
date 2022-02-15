@@ -9,6 +9,7 @@ const askScriptType = {
 
 module.exports = {
   name: 'generate:script',
+  alias: ['gs'],
   run: async (toolbox: GluegunToolbox) => {
     const { parameters, print, filesystem, prompt } = toolbox
 
